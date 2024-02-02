@@ -6373,7 +6373,7 @@ fg_api.prototype.orientationModule = function() {
 				M.fgLandscapeImage = document.createElement("img");
 				M.fgLandscapeImage.setAttribute(
 					"src",
-					"./html5games/gameapi/v1/images/RotateToLandscape.png"
+					"patch/images/RotateToLandscape.png"
 				);
 				M.fgLandscapeImage.setAttribute("class", "fg-orientation-icon");
 				M.fgLandscapeImage.setAttribute("alt", "switch to landscape");
@@ -6389,7 +6389,7 @@ fg_api.prototype.orientationModule = function() {
 				M.fgPortraitImage = document.createElement("img");
 				M.fgPortraitImage.setAttribute(
 					"src",
-					"./html5games/gameapi/v1/images/RotateToPortrait.png"
+					"patch/images/RotateToPortrait.png"
 				);
 				M.fgPortraitImage.setAttribute("class", "fg-orientation-icon");
 				M.fgPortraitImage.setAttribute("alt", "switch to portrait");
